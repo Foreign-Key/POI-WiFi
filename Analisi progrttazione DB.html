@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <title>App Panini</title>
+    <script src="./App Panini_files/frappe-gantt.js.download"></script>
+    <link rel="stylesheet" href="./App Panini_files/frappe-gantt.css" />
+    <link rel="stylesheet" href="./App Panini_files/cssAppPanini.css" />
+
+    <script>
+      var tasks = [
+        {
+          start: '2021-01-15' ,
+			end: '2021-02-01' ,
+			name: 'Analisi dei requisiti' ,
+			id: 'task_0' ,
+			progress: '20'
+        },
+        {
+          start: '2021-02-01' ,
+			end: '2021-02-07' ,
+			name: 'Progettazione concettuale' ,
+			id: 'task_1' ,
+			progress: '0'
+			dependencies: 'task_0'
+        },
+        {
+          start: '2021-02-07' ,
+			end: '2021-02-13' ,
+			name: 'Progettazione logica' ,
+			id: 'task_2' ,
+			progress: '0',
+			dependencies: 'task_1'
+        },
+        {
+          start: '2021-02-13' ,
+			end: '2021-02-20' ,
+			name: 'Programmazione Database' ,
+			id: 'task_3' ,
+			progress: '0',
+			dependencies: 'task_2'
+        },
+        {
+          start: '2021-02-20' ,
+			end: '2021-02-22' ,
+			name: 'Consegna e Manutenzione' ,
+			id: 'task_4' ,
+			progress: '0',
+			dependencies: 'task_3'
+        },
+        {
+      ];
+    </script>
+  </head>
+
+  <body>
+    <h1 class="title">App DB</h1>
+
+    <div class="cointainer">
+      <div class="gantt-target"></div>
+    </div>
+  </body>
+</html>
