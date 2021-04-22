@@ -14,7 +14,6 @@
 | **MILESTONE** | |
 | Mappatura dei POI | |
 | **VINCOLI E DIPENDENZE** | |
-| Le risorse necessarie esterne all'azienda sono: | |
 | Nuova versione dell'ambiente di sviluppo | |
 | Foto e video dei POI | |
 | **TEMPISTICA PRELIMINARE** | |
